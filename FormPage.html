@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Second Page</title>
+    <link rel="stylesheet" href="styleSheetTest2.css">
+</head>
+<body>
+    <header>
+        <div class="navDiv">
+            <div class="navDivInlineLogo">
+                <img src="Intranet_logo.png" alt="LOGO">
+            </div>
+            <div class="navDivInline">
+                <strong><a href="FrontPage.html" >Silicon University</a></strong> 
+            </div>
+            <div class="contact">
+                <label>Deatils <br></label> 
+                <label for="contact">Email-id :</label>
+                <a href="mailto:sitemail@gmail.com">intranetsit@gmail.com</a><br>
+            </div>
+        </div>
+    </header>
+    <body>
+        <div>
+            <p>
+                An intranet is a private network used within an organization to securely share company information, resources, and communication tools among employees.
+                Unlike the internet, which is publicly accessible, an intranet is restricted to authorized users within the organization, often protected by firewalls and other security measures.                    
+                It serves as a central platform for internal communications, collaboration, and document management, facilitating efficient workflows and knowledge sharing.
+                Intranets can host a variety of applications such as employee directories, project management tools, and corporate news, thereby enhancing productivity and fostering a more connected workplace environment.
+                A bridge is a structure built to span physical obstacles such as bodies of water, valleys, or roads, providing a passage for transportation and connectivity.
+                Bridges are essential components of infrastructure, facilitating the movement of people, goods, and vehicles, and contributing to economic growth and development.
+                They come in various types, including beam, arch, suspension, and cable-stayed bridges, each designed to address specific engineering challenges and environmental conditions. The construction of bridges involves careful planning, design, and engineering to ensure safety, durability, and functionality.
+                Besides their practical uses, bridges often hold cultural and historical significance, symbolizing human ingenuity and the drive to overcome natural barriers.
+                Iconic bridges like the Golden Gate Bridge, Tower Bridge, and the Millau Viaduct not only serve as critical transportation links but also stand as landmarks and architectural marvels that inspire awe and admiration. 
+                The internet is a global network of interconnected computers that enables the exchange of information and communication across vast distances. It has revolutionized the way people access information, communicate, and conduct business. Through the internet, users can browse websites, send and receive emails, participate in social media, and access a wealth of resources, from academic research to entertainment.
+            </p>
+        </div>
+        <form action="javascript:submitForm()" onsubmit="return validate()" class="form">
+            <label for="name">Enter your Name :</label>
+            <input type="text" class="name" id="name" required><br>
+            <label for="email">Enter  your Email :</label>
+            <input type="text" class="email" id="email" required><br>
+            <label for="list">Enter your Branch :</label>
+            <input list="Genre" class="list" id="list" required> <br>
+            <datalist id="Genre">
+                <option value="MCA">
+                <option value="ECE">
+                <option value="CSE">
+                <option value="CST">
+            </datalist>
+            <input type="checkbox" class="checkbox" id="checkbox" required>Subscribe to our Intranet via Email <br>
+            <input type="submit" value="Submit" class="submit">
+        </form>
+        <script>
+            let val=document.getElementById("name");
+            function validate(){
+                if(val.value.length<=6){
+                    window.alert("Name Atleast Contain 6 Letters")
+                    return false
+                }else{
+                    return true;
+                }
+            }
+            function submitForm(){
+                window.alert("We will Contact You through Your Email.")
+            }
+        </script>
+    </body>
+    <footer>
+        <p class="footerText">All rights are reserved</p>
+    </footer>
+</body>
+</html>

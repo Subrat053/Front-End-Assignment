@@ -1,0 +1,91 @@
+.navDiv{
+    display: flex;
+    height: 70px;
+    /* border: 1px solid red; */
+    margin-bottom: 10px;
+    background-color: darkslategray;
+}
+.navDivInlineLogo{
+    border-radius: 20px;
+    /* border: 1px solid red; */
+}
+.navDivInlineLogo img{
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 50px;
+}
+.navDivInline{
+    display: inline;
+    /* border: 1px solid red; */
+    margin-left: 5px;
+    margin-top: 10px;
+    font-size: 40px;
+    color: rgb(18, 211, 44);
+}
+.contact{
+    display: inline;
+    position: absolute;
+    right: 1%;
+    color: yellow;
+    /* margin-left: 80px; */
+    /* border: 1px solid red; */
+    margin-top: 28px;
+}
+.contact a{
+    text-decoration: none;
+    color: black;
+    font-size: 30px;
+}
+.imgDiv{
+    height: 400px;
+    overflow: hidden;
+    /* border: 1px solid red; */
+    position: relative;
+    margin-bottom: 10px;
+}
+.imgDiv img{
+    background-repeat: no-repeat;
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    opacity: 0.3;
+}
+.text{
+    text-align: center;
+    font-size: 50px;
+    margin-top: 80px;
+}
+.contentDiv{
+    display: inline-flex;
+    justify-content: space-around;
+    /* border: 1px solid red; */
+    margin-left: 5px;
+    margin-right: 5px;
+    margin-bottom: 10px;
+    
+}
+.divText{
+    text-align: justify;
+}
+.divTextTwo{
+    text-align: justify;
+}
+.contentImg{
+    margin-top: auto;
+    margin-bottom: auto;
+    margin-left: 10px;
+    margin-right: 7px;
+}
+footer{
+    background-color: darkslategray;
+    height: 80px;
+}
+.footerText{
+    padding-top: 30px;
+    text-align: center;
+    font-size: large;    
+}

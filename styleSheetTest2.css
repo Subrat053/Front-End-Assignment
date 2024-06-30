@@ -1,0 +1,68 @@
+.navDiv{
+    
+    display: flex;
+    height: 80px;
+    margin-bottom: 10px;
+    background-color: darkslategray;
+}
+.navDivInlineLogo{
+    border-radius: 50px;
+}
+.navDivInlineLogo img{
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 30px;
+}
+.navDivInline{
+    display: inline;
+    margin-top: 15px;
+    margin-left: 5px;
+}
+.navDivInline a{
+    text-decoration: none;
+    color: black;
+    font-size: 40px;
+}
+.contact{
+    display: inline;
+    position: absolute;
+    right: 2%;
+    margin-top: 25px;
+}
+.contact a:hover{
+    background-color: aquamarine;
+}
+.form{
+    text-align: center;
+    border: 1px solid black;
+    padding: 10px ;
+    margin-bottom: 20%;
+}
+input{
+    width: 60%;
+    padding: 10px;
+    margin-bottom: 10px;
+}
+label{
+    margin: 12px;
+}
+.checkbox{
+    width: auto;
+}
+.submit{
+    width: 100px;
+}
+.footerText{
+    text-align: center;
+    font-size: large;
+    padding-top: 20px;
+}
+footer{
+    position: sticky;
+    text-align: center;
+    background-color:darkslategray;
+    height: 60px;
+    bottom: 0;
+}
